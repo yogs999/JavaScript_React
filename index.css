@@ -2,26 +2,25 @@
     color: red;
 } */
 
-.logo{
-   width: 200px;
+.logo {
+  width: 200px;
 }
 
-.header{
-    display: flex;
-    justify-content:space-between ;
-   border: 1px solid black;
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
 }
 
-
-.nav-Items> ul{
-    display: flex;
-    font-size: 28px;
-    list-style-type: none;
+.nav-Items > ol {
+  display: flex;
+  font-size: 28px;
+  list-style-type: none;
 }
 
-.nav-Items>ul>li{
-    margin: 20px;
-    padding: 20px;
+.nav-Items > ol > li {
+  margin: 20px;
+  padding: 20px;
 }
 
 /* .res-card{
@@ -40,25 +39,35 @@
     padding-left: 40px;
 } */
 
-
 .res-card {
-    width: 250px;
-    padding: 20px;
-    margin: 10px;
+  width: 250px;
+  padding: 20px;
+  margin: 10px;
 }
 
 .res-card:hover {
-    cursor: pointer;
-    border: 1px solid black;
+  cursor: pointer;
+  border: 1px solid black;
 }
 
 .res-logo {
-    width: 250px;
-    height: 200px;
+  width: 250px;
+  height: 200px;
 }
 
-.res-container{
-    display: flex;
-    flex-wrap: wrap;
+.res-container {
+  display: flex;
+  flex-wrap: wrap;
 }
 
+.shimmer_container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shimmer-card {
+  height: 450px;
+  width: 300px;
+  margin: 20px;
+  background-color: #f0f0f0;
+}
